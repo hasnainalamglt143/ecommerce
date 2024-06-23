@@ -1,0 +1,181 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    height: 40px;
+    width:100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact_us_green {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+.big-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-box, .container-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 20px;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-text-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contactus-head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contactus-subhead {
+    font-size: 16px;
+    color: #666;
+}
+
+.input-title {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input, .textinput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.textinput {
+    height: 100px;
+    resize: vertical;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #555;
+}
+
+.container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text-content {
+    margin-bottom: 20px;
+}
+
+.workik-contact-bigbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workik-contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-svg, .social-svg {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-links a {
+    margin: 0 10px;
+}
+
+.social-svg {
+    width: 32px;
+    height: 32px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
